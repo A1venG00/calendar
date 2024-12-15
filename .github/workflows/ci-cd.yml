@@ -13,24 +13,20 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Create .ssh directory with proper permissions
+    - name: Set up SSH key for EC2
       run: |
-        sudo mkdir -p /home/ubuntu/.ssh
-        sudo chmod 700 /home/ubuntu/.ssh
-
-    - name: Decode SSH key from Base64
-      run: |
-        echo "${{ secrets.EC2_KEY }}" | base64 --decode | sudo tee /home/ubuntu/.ssh/id_rsa > /dev/null
-        sudo chmod 600 /home/ubuntu/.ssh/id_rsa
-        sudo ssh-keyscan -H ${{ secrets.EC2_HOST }} >> /home/ubuntu/.ssh/known_hosts
+        mkdir -p ~/.ssh
+        echo "${{ secrets.EC2_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -H ${{ secrets.EC2_HOST }} >> ~/.ssh/known_hosts
 
     - name: Copy files to EC2
       uses: appleboy/scp-action@v0.1.3
       with:
         host: ${{ secrets.EC2_HOST }}
         username: ubuntu
-        key: /home/ubuntu/.ssh/id_rsa
-        source: "./"  # Copy everything in the repo (including docker-compose.yml, lab2, Notifications, etc.)
+        key: ~/.ssh/id_rsa
+        source: "./"
         target: "/home/ubuntu/deployment"
 
     - name: Deploy Docker Compose on EC2
@@ -38,7 +34,7 @@ jobs:
       with:
         host: ${{ secrets.EC2_HOST }}
         username: ubuntu
-        key: /home/ubuntu/.ssh/id_rsa
+        key: ~/.ssh/id_rsa
         script: |
           cd /home/ubuntu/deployment
           docker-compose down  # Stop and remove any running containers

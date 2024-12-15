@@ -3,7 +3,7 @@ name: Build and Test
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up .NET SDK
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '6.0'  # Use the version suitable for your project
+          dotnet-version: '8.0'
 
       - name: Build Docker image for CalendarEvents
         run: |

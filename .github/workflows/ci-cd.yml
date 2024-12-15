@@ -3,7 +3,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -26,9 +26,9 @@ jobs:
       uses: appleboy/ssh-action@v0.1.3
       with:
         host: ${{ secrets.EC2_HOST }}
-        username: ubuntu  # Change this to 'ubuntu'
+        username: ubuntu
         key: ${{ secrets.EC2_KEY }}
         script: |
-          cd /home/ubuntu/deployment  # Change this path if needed
+          cd /home/ubuntu/deployment
           docker-compose down
           docker-compose up -d

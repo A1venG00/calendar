@@ -25,16 +25,16 @@ services:
     # depends_on:
       # - consul
       
-  gateway:
-    build:
-      context: ./gateway
-    ports:
-      - "80:80"
-    networks:
-      - calendarnetwork
-    depends_on:
-      - calendarevents
-      - calendarnotifications
+  # gateway:
+    # build:
+      # context: ./gateway
+    # ports:
+      # - "80:80"
+    # networks:
+      # - calendarnetwork
+    # depends_on:
+      # - calendarevents
+      # - calendarnotifications
   # consul:
     # image: consul:1.14.4
     # container_name: consul

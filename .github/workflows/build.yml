@@ -1,0 +1,32 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0'  # Use the version suitable for your project
+
+      - name: Build Docker image for CalendarEvents
+        run: |
+          cd lab2  # Navigate to your CalendarEvents project directory
+          docker build -t calendarevents:${{ github.sha }} .
+
+      - name: Run tests for CalendarEvents
+        run: |
+          cd tests  # Navigate to the tests directory
+          dotnet test  # Run .NET tests for the CalendarEvents service
+
+      - name: Push Docker image
+        run: |
+          docker push calendarevents:${{ github.sha }}

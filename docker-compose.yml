@@ -1,0 +1,50 @@
+services:
+  calendarevents:
+    build:
+      context: ./lab2
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    networks:
+      - calendarnetwork
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    # depends_on:
+      # - consul
+
+  calendarnotifications:
+    build:
+      context: ./Notifications
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - calendarnetwork
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    # depends_on:
+      # - consul
+      
+  gateway:
+    build:
+      context: ./gateway
+    ports:
+      - "80:80"
+    networks:
+      - calendarnetwork
+    depends_on:
+      - calendarevents
+      - calendarnotifications
+  # consul:
+    # image: consul:1.14.4
+    # container_name: consul
+    # ports:
+      # - "8500:8500"
+    # networks:
+      # - calendarnetwork
+    # environment:
+      # - CONSUL_LOCAL_CONFIG={"server":true}
+
+networks:
+  calendarnetwork:
+    driver: bridge

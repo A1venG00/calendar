@@ -1,0 +1,11 @@
+E:\ArtemStudy\5c\Cloud\lab2\publish\lab2
+E:\ArtemStudy\5c\Cloud\lab2\publish\appsettings.Development.json
+E:\ArtemStudy\5c\Cloud\lab2\publish\appsettings.json
+E:\ArtemStudy\5c\Cloud\lab2\publish\lab2.dll
+E:\ArtemStudy\5c\Cloud\lab2\publish\lab2.deps.json
+E:\ArtemStudy\5c\Cloud\lab2\publish\lab2.runtimeconfig.json
+E:\ArtemStudy\5c\Cloud\lab2\publish\lab2.pdb
+E:\ArtemStudy\5c\Cloud\lab2\publish\Microsoft.OpenApi.dll
+E:\ArtemStudy\5c\Cloud\lab2\publish\Swashbuckle.AspNetCore.Swagger.dll
+E:\ArtemStudy\5c\Cloud\lab2\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\ArtemStudy\5c\Cloud\lab2\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

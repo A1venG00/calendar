@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\controllers\\calendareventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:controllers\\calendareventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\outboxprocessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:outboxprocessorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\persistance\\outboxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:persistance\\outboxmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:calendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\calendarevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:calendarevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|e:\\artemstudy\\5c\\cloud\\lab2\\icalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{987B2460-00DD-45C4-8CF8-E7E0A137BF1C}|lab2.csproj|solutionrelative:icalendarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OutboxProcessorService.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\OutboxProcessorService.cs",
+              "RelativeDocumentMoniker": "OutboxProcessorService.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\OutboxProcessorService.cs",
+              "RelativeToolTip": "OutboxProcessorService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:37:49.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T10:32:58.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CalendarEventsController.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Controllers\\CalendarEventsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CalendarEventsController.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Controllers\\CalendarEventsController.cs",
+              "RelativeToolTip": "Controllers\\CalendarEventsController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwFAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:32:42.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OutboxMessage.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Persistance\\OutboxMessage.cs",
+              "RelativeDocumentMoniker": "Persistance\\OutboxMessage.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Persistance\\OutboxMessage.cs",
+              "RelativeToolTip": "Persistance\\OutboxMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:33:42.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CalendarEvent.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\CalendarEvent.cs",
+              "RelativeDocumentMoniker": "CalendarEvent.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\CalendarEvent.cs",
+              "RelativeToolTip": "CalendarEvent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:32:23.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Persistance\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Persistance\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Persistance\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Persistance\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T13:31:26.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T10:32:16.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RabbitMqPublisher.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\RabbitMqPublisher.cs",
+              "RelativeDocumentMoniker": "RabbitMqPublisher.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\RabbitMqPublisher.cs",
+              "RelativeToolTip": "RabbitMqPublisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T12:55:27.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-17T13:59:22.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalendarService.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\CalendarService.cs",
+              "RelativeDocumentMoniker": "CalendarService.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\CalendarService.cs",
+              "RelativeToolTip": "CalendarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T11:09:33.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICalendarService.cs",
+              "DocumentMoniker": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\ICalendarService.cs",
+              "RelativeDocumentMoniker": "ICalendarService.cs",
+              "ToolTip": "E:\\ArtemStudy\\5c\\Cloud\\lab2\\ICalendarService.cs",
+              "RelativeToolTip": "ICalendarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T11:07:16.663Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

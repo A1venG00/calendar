@@ -15,7 +15,7 @@ namespace tests
         private readonly CalendarEventsController _controller;
         private readonly Mock<ILogger<CalendarEventsController>> _mockLogger;
         private readonly Mock<HttpClient> _mockClient;
-        private readonly Mock<RabbitMqPublisher> _rabbitMq;
+        private readonly Mock<IMessagePublisher> _rabbitMq;
         private readonly ApplicationDbContext _dbContext;
 
         public TestController()
@@ -23,7 +23,8 @@ namespace tests
             _mockService = new Mock<ICalendarService>();
             _mockLogger = new Mock<ILogger<CalendarEventsController>>();
             _mockClient = new Mock<HttpClient>();
-            _rabbitMq = new Mock<RabbitMqPublisher>();
+            _rabbitMq = new Mock<IMessagePublisher>();
+            _rabbitMq.Setup(p => p.PublishMessage(It.IsAny<string>())).Verifiable();
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
                         .UseInMemoryDatabase("InMemoryDb")
                         .Options;

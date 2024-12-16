@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using System.Text.Json;
 using System.Text;
 using lab2.Persistance;
+using lab2;
 using Microsoft.EntityFrameworkCore;
 
 namespace lab2.Controllers
@@ -14,10 +15,11 @@ namespace lab2.Controllers
         private readonly ICalendarService _calendarService;
         private readonly ILogger<CalendarEventsController> _logger;
         private readonly HttpClient _httpClient;
-        private readonly RabbitMqPublisher _rabbitMqPublisher;
+        private readonly IMessagePublisher _rabbitMqPublisher;
         private readonly ApplicationDbContext _context;
 
-        public CalendarEventsController(ILogger<CalendarEventsController> logger, ICalendarService calendarService, HttpClient _client, RabbitMqPublisher rabbitMqPublisher, ApplicationDbContext context)
+        public CalendarEventsController(ILogger<CalendarEventsController> logger, ICalendarService calendarService,
+            HttpClient _client, IMessagePublisher rabbitMqPublisher, ApplicationDbContext context)
         {
             _logger = logger;
             _calendarService = calendarService;

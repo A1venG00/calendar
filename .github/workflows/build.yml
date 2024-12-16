@@ -19,14 +19,10 @@ jobs:
 
       - name: Build Docker image for CalendarEvents
         run: |
-          cd lab2  # Navigate to your CalendarEvents project directory
+          cd lab2 
           docker build -t calendarevents:${{ github.sha }} .
 
       - name: Run tests for CalendarEvents
         run: |
-          cd tests  # Navigate to the tests directory
-          dotnet test  # Run .NET tests for the CalendarEvents service
-
-      - name: Push Docker image
-        run: |
-          docker push calendarevents:${{ github.sha }}
+          cd tests
+          dotnet test
